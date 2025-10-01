@@ -1,4 +1,53 @@
 {
-    "fortran.fortls.disabled": true,
+    "workbench.colorTheme": "GitHub Dark",
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt",
+        "matlab.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "julia.enableTelemetry": false,
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "MATLAB.showFeatureNotAvailableError": false,
+    "julia.workspace.showModules": true,
+    "diffEditor.maxComputationTime": 0,
+    "julia.enableCrashReporter": true,
+    "python.createEnvironment.trigger": "off",
+    "remote.SSH.remotePlatform": {
+        "darwin-fe.lanl.gov": "linux"
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.fontSize": 16,
+    "git.confirmSync": false,
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor"
+    },
+    "editor.fontSize": 17,
+    "terminal.fontSize": 17,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "vscode-neovim.ctrlKeysForInsertMode": [
+        "d",
+        "h",
+        "j",
+        "m",
+        "o",
+        "r",
+        "t",
+        "u",
+        "w"
+    ],
+    "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\409610\\AppData\\Local\\nvim\\init.lua",
+    "editor.codeActionsOnSave": {
+        
+    },
+    "vscode-neovim.compositeKeys": {
+        "jj": {
+            "command": "vscode-neovim.escape"
+        }
+    },
+    "vscode-neovim.statusBarColorControl": true,
     "C_Cpp.default.compilerPath": "c:\\Users\\409610\\Documents\\zig-x86_64-windows-0.16.0-dev.254+6dd0270a1\\zig.exe"
 }
