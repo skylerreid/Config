@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Current File",
+            "type": "cppvsdbg",  // This uses the Visual Studio debugger
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension} ",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal",
+            "preLaunchTask": "build current file"
+        }
+    ]
+}
