@@ -1,7 +1,6 @@
 -- ===================================
 --     Plugin Manager and Plugins
 -- ===================================
-
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -53,14 +52,23 @@ require('lualine').setup({
   tabline = {},
   extensions = {}
 })
-
 -- ===================================
+--testing 
 --      General Neovim Settings
 -- ===================================
 
 -- Remap 'jj' to Escape in Insert mode
 vim.api.nvim_set_keymap('i', 'jj', '<Esc>', { noremap = true, silent = true })
 
+-- leader key maps
+vim.g.mapleader = ' '
+vim.api.nvim_set_keymap('n', '<leader>d', '"_dd', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>q', ':wq<CR>', { noremap = true, silent = true })
+
+
+
+--
+-- end of leader maps
 -- Set clipboard option for system clipboard
 vim.o.clipboard = 'unnamedplus'
 
