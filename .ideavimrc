@@ -12,6 +12,10 @@ set incsearch
 
 " Don't use Ex mode, use Q for formatting.
 map Q gq
+let mapleader = ","
+nnoremap <Leader>d "_dd
+nnoremap <Leader>q :wq<CR>
+
 
 " --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
 
