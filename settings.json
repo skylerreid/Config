@@ -23,6 +23,12 @@
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor"
     },
+
+    "workbench.colorCustomizations": {
+            "editorIndentGuide.background1": "#355113", // Color for inactive indent guides
+            "editorIndentGuide.activeBackground1": "#355113" // Color for active indent guide
+        },
+
     "editor.fontSize": 17,
     "terminal.fontSize": 17,
     "extensions.experimental.affinity": {
@@ -40,14 +46,22 @@
         "w"
     ],
     "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\409610\\AppData\\Local\\nvim\\init.lua",
-    "editor.codeActionsOnSave": {
-        
-    },
+    "editor.codeActionsOnSave": {},
     "vscode-neovim.compositeKeys": {
         "jj": {
             "command": "vscode-neovim.escape"
         }
     },
     "vscode-neovim.statusBarColorControl": true,
-    "C_Cpp.default.compilerPath": "c:\\Users\\409610\\Documents\\zig-x86_64-windows-0.16.0-dev.254+6dd0270a1\\zig.exe"
+    "C_Cpp.default.compilerPath": "c:\\Users\\409610\\Documents\\zig-x86_64-windows-0.16.0-dev.254+6dd0270a1\\zig.exe",
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "security.allowedUNCHosts": [
+        "dcstorage.lanl.gov"
+    ],
+    "git.enableSmartCommit": true,
+    "git.autofetch": true
 }
