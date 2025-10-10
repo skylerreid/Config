@@ -1,0 +1,7 @@
+! Swap y and ; (unshifted only)
+keycode  29 = semicolon Y
+keycode  47 = y colon
+
+! Make Caps Lock into Backspace
+clear Lock
+keycode  66 = BackSpace
