@@ -53,7 +53,6 @@ require('lualine').setup({
   extensions = {}
 })
 -- ===================================
---testing 
 --      General Neovim Settings
 -- ===================================
 
@@ -62,10 +61,9 @@ vim.api.nvim_set_keymap('i', 'jj', '<Esc>', { noremap = true, silent = true })
 
 -- leader key maps
 vim.g.mapleader = ' '
-vim.api.nvim_set_keymap('n', '<leader>d', '"_dd', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<leader>q', ':wq<CR>', { noremap = true, silent = true })
-
-
+vim.api.nvim_set_keymap('n', '<leader>d', '"_dd', { noremap = true, silent = true }) --leader d deletes line without yanking
+vim.api.nvim_set_keymap('n', '<leader>q', ':wq<CR>', { noremap = true, silent = true }) --leader q saves and quits
+vim.api.nvim_set_keymap('v', '<leader>s', ':<C-u>s/', { noremap = true, silent = true }) --leader s enters subsitute mode (:s/) for the current selection
 
 --
 -- end of leader maps
@@ -104,3 +102,4 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 if vim.g.vscode then
 else
 end
+
