@@ -30,6 +30,7 @@
         },
 
     "editor.fontSize": 17,
+    "editor.cursorSurroundingLines": 15,
     "terminal.fontSize": 17,
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
@@ -65,3 +66,4 @@
     "git.enableSmartCommit": true,
     "git.autofetch": true
 }
+
